@@ -1,0 +1,17 @@
+{
+  "name": "Nitebyte Systems",
+  "short_name": "Nitebyte",
+  "description": "Software, cybersecurity, cloud, and IT services for growing businesses.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080b0c",
+  "theme_color": "#080b0c",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

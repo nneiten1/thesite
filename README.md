@@ -8,12 +8,18 @@ A static business website for Nitebyte Systems, providing software, cybersecurit
 - `styles.css` - responsive visual design
 - `script.js` - small navigation/header enhancement
 - `assets/hero-digital-forge.png` - generated hero visual
+- `favicon.svg` - site icon
+- `site.webmanifest` - install/browser metadata
+- `robots.txt` - crawler policy
+- `staticwebapp.config.json` - Azure Static Web Apps headers and MIME settings
 
 ## Customize
 
 Search for `Nitebyte Systems` to update the business name.
 
-Update the contact form in `index.html`. It currently uses a `mailto:nickneitenbach@outlook.com` action. For production, connect it to Microsoft Forms, a CRM form endpoint, Azure Functions, or another form service.
+The contact form currently opens the visitor's mail client with a prefilled message to `nickneitenbach@outlook.com`. For higher conversion later, connect it to Microsoft Forms, a CRM form endpoint, Azure Functions, or another form service.
+
+Once the final domain is confirmed, add the canonical URL, absolute Open Graph image URL, and sitemap URL.
 
 ## Azure Hosting Options
 

@@ -4,19 +4,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Nitebyte Systems provides software, cybersecurity, cloud, and IT services for growing businesses.">
+    <meta name="author" content="Nitebyte Systems">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#080b0c">
+    <meta property="og:title" content="Nitebyte Systems">
+    <meta property="og:description" content="Software, cybersecurity, cloud, and IT services for growing businesses.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/hero-digital-forge.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nitebyte Systems">
+    <meta name="twitter:description" content="Software, cybersecurity, cloud, and IT services for growing businesses.">
+    <meta name="twitter:image" content="assets/hero-digital-forge.png">
     <title>Nitebyte Systems | Software, Cybersecurity, Cloud, and IT Services</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header" data-header>
-      <a class="brand" href="#top" aria-label="Nitebyte Systems home">
+      <a class="brand" href="#main-content" aria-label="Nitebyte Systems home">
         <span class="brand-mark" aria-hidden="true">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span>&gt; NB_</span>
         </span>
         <span>Nitebyte Systems</span>
       </a>
@@ -34,14 +46,14 @@
       <a class="header-cta" href="#contact">Start a Project</a>
     </header>
 
-    <main id="top">
+    <main id="main-content">
       <section class="hero" aria-labelledby="hero-title">
-        <img class="hero-image" src="assets/hero-digital-forge.png" alt="Abstract command center of connected software, cloud, security, and IT systems.">
+        <img class="hero-image" src="assets/hero-digital-forge.png" width="1823" height="863" alt="Abstract command center of connected software, cloud, security, and IT systems." fetchpriority="high">
         <div class="hero-overlay"></div>
         <div class="hero-grid" aria-hidden="true"></div>
         <div class="hero-content">
-          <p class="eyebrow">Software engineering + IT operations</p>
-          <h1 id="hero-title">Systems that feel custom because they are.</h1>
+          <p class="eyebrow">Software development + IT operations</p>
+          <h1 id="hero-title">Custom systems for cleaner, safer operations.</h1>
           <p class="hero-copy">Software, cybersecurity, cloud, and IT services for growing businesses.</p>
           <div class="hero-actions">
             <a class="button primary" href="#contact">Book a Consult</a>
@@ -144,7 +156,7 @@ region: east-us
 security: mfa/enforced
 backups: verified
 deploy: static-ready
-next: your-domain.com</code></pre>
+next: production-ready</code></pre>
           </div>
         </div>
       </section>
@@ -167,29 +179,38 @@ next: your-domain.com</code></pre>
         <div class="contact-content">
           <p class="eyebrow">Start here</p>
           <h2 id="contact-title">Tell us what is breaking, slowing down, or ready to become better.</h2>
-          <p>Use this placeholder contact area until you connect your preferred form service, CRM, Microsoft 365 mailbox, or Azure backend.</p>
+          <p>Send a short note about the system, workflow, security concern, or support need you want to improve. We will follow up by email.</p>
         </div>
-        <form class="contact-form" action="mailto:nickneitenbach@outlook.com" method="post" enctype="text/plain">
+        <form class="contact-form terminal-form" action="mailto:nickneitenbach@outlook.com" method="post" enctype="text/plain" data-contact-form>
+          <div class="terminal-form-bar" aria-hidden="true">
+            <span></span><span></span><span></span>
+            <code>contact.sh</code>
+          </div>
           <label>
             <span>Name</span>
-            <input name="name" type="text" autocomplete="name" required>
+            <input name="name" type="text" autocomplete="name" placeholder="Your name" required>
           </label>
           <label>
             <span>Email</span>
-            <input name="email" type="email" autocomplete="email" required>
+            <input name="email" type="email" autocomplete="email" placeholder="you@company.com" required>
           </label>
           <label>
             <span>What do you need?</span>
-            <textarea name="message" rows="5" required></textarea>
+            <textarea name="message" rows="5" placeholder="Tell us what you want to fix, build, secure, or support." required></textarea>
           </label>
-          <button class="button primary" type="submit">Send Inquiry</button>
+          <div class="terminal-submit" aria-live="polite">
+            <button class="button primary terminal-button" type="submit">
+              <span class="prompt">$</span>
+              <span>./send-inquiry</span>
+            </button>
+          </div>
         </form>
       </section>
     </main>
 
     <footer class="footer">
-      <p>Nitebyte Systems</p>
-      <p>Software, cybersecurity, cloud, and IT services for growing businesses.</p>
+      <p>&copy; 2026 Nitebyte Systems. All rights reserved.</p>
+      <p><a href="mailto:nickneitenbach@outlook.com">nickneitenbach@outlook.com</a></p>
     </footer>
 
     <script src="script.js"></script>
