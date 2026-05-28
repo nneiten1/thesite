@@ -1,0 +1,53 @@
+# Local editor and machine settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Secrets and local environment files
+.env
+.env.*
+*.local
+*.secret
+secrets.*
+
+# Dependencies and package manager output
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Build and deploy output
+dist/
+build/
+out/
+.next/
+.vercel/
+.netlify/
+
+# Azure/local tooling
+.azure/
+.swa/
+
+# Logs and diagnostics
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files and screenshots
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+desktop.png
+mobile.png
+tablet.png
+.chrome-mobile/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
