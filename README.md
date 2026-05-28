@@ -1,6 +1,6 @@
-# PlaceholderCo Website
+# Nitebyte Systems Website
 
-A static business website for a software and IT solutions company. The name is intentionally temporary and can be replaced throughout the files when the business name is ready.
+A static business website for Nitebyte Systems, providing software, cybersecurity, cloud, and IT services for growing businesses.
 
 ## Files
 
@@ -11,9 +11,9 @@ A static business website for a software and IT solutions company. The name is i
 
 ## Customize
 
-Search for `PlaceholderCo` and replace it with the final business name.
+Search for `Nitebyte Systems` to update the business name.
 
-Update the contact form in `index.html`. It currently uses a placeholder `mailto:hello@example.com` action. For production, connect it to Microsoft Forms, a CRM form endpoint, Azure Functions, or another form service.
+Update the contact form in `index.html`. It currently uses a `mailto:nickneitenbach@outlook.com` action. For production, connect it to Microsoft Forms, a CRM form endpoint, Azure Functions, or another form service.
 
 ## Azure Hosting Options
 
